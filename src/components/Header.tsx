@@ -24,14 +24,14 @@ return (
             <section className='flex items-center'>
             <nav className='flex gap-10'>
                 <Link href={'/'}>лого</Link>
-                <Link href={'/'}>фильмы</Link>
-                <Link href={'/'}>сериалы</Link>
-                <Link href={'/'}>мультфильмы</Link>
+                <Link href={'/filmy'}>фильмы</Link>
+                <Link href={'/serialy'}>сериалы</Link>
+                <Link href={'/mult'}>мультфильмы</Link>
             </nav>
         </section>
         <section className='flex gap-10'>
             <input placeholder='введите название фильма,сериала' className='bg-gray-200 h-10 w-[30vw] px-4 rounded-lg ' type="text" />
-            <button className=''>войти</button>
+            <Link href={'/vhod'} className=''>войти</Link>
         </section>
         </section>
         <section className='flex gap-4 mt-5'>

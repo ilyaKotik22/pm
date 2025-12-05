@@ -1,7 +1,10 @@
 import React from 'react'
+import { MyForm } from './components/form'
 
 export default function page() {
   return (
-    <div>page</div>
+    <div>page
+      <MyForm/>
+    </div>
   )
 }
